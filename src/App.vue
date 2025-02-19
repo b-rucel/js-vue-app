@@ -89,6 +89,26 @@ console.log(isDark.value)
         </Card>
       </div>
 
+
+      <Card class="mt-8">
+        <CardHeader>
+          <CardTitle>Ready to Use</CardTitle>
+          <CardDescription>
+            Use this repo as a starting point
+          </CardDescription>
+        </CardHeader>
+        <CardContent class="bg-muted p-4 px-6 rounded-md font-mono text-sm">
+          <pre>npx degit https://github.com/b-rucel/js-vue-app new-project
+
+cd new-project
+npm install
+npm run dev</pre>
+        </CardContent>
+        <CardFooter class="text-muted-foreground text-sm mt-4">
+          Simple installation process, extensive component library included
+        </CardFooter>
+      </Card>
+
       <!-- GitHub Section -->
       <div class="text-center mt-12">
         <Button variant="outline" asChild>
@@ -98,6 +118,9 @@ console.log(isDark.value)
           </a>
         </Button>
       </div>
+
+      
+
     </div>
   </main>
 </template>
